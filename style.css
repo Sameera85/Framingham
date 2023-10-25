@@ -1,0 +1,67 @@
+.sidebar {
+    background-color: #3380FF;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidebar-title {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    
+    transition: 0.3s;
+    font-weight: bold;
+    text-align: center;
+    background-color: #3380FF;
+    font-family: 'Times New Roman', Times, serif;
+   font-size: small;
+    padding: 10px;
+    opacity: 0.8;
+}
+.my-container {
+    max-width: 2000 auto;
+    text-align: center;
+    background-color: bisque;
+}
+.my-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #3380FF;
+    width:703px;
+    padding: 10px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+
+
+}
+.sub-header {
+    font-size: 24px; 
+    font-weight: bold;
+    font-size:small;
+    margin-bottom: 20px;
+    color: #0074e4;
+    
+    
+}
+.my-image {
+    width: 400px;
+    text-align: center;
+} 
+
+.streamlit-expander {
+    background-color: #f0f0f0;
+    border: 2px solid #0074e4;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0074e4;
+    font-family: "Times New Roman";
+}
