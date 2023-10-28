@@ -265,8 +265,8 @@ if age_group[0] != 30 or age_group[1] != 70:
 
 
 # Select features from the predefined list
-x_feature = st.sidebar.selectbox("X-axis Feature", ["totChol", "sysBP", "diaBP", "BMI", "heartRate", "glucose"])
-y_feature = st.sidebar.selectbox("Y-axis Feature", ["glucose", "heartRate", "BMI", "diaBP", "sysBP", "totChol"])
+x_feature = st.sidebar.selectbox("X-axis Feature", ["totChol", "sysBP", "diaBP","heartRate", "glucose"])
+y_feature = st.sidebar.selectbox("Y-axis Feature", ["glucose", "heartRate","diaBP", "sysBP", "totChol"])
 
 
 # Select color variable
