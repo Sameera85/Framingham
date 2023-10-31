@@ -316,7 +316,7 @@ else:
 
 st.plotly_chart(fig)
 st.sidebar.markdown("")
-st.sidebar.markdown("<h4 style='color: blue; font-size: 16px;'>Made with 💙 Eng.Sameera alkhalifi</h4>", unsafe_allow_html=True)
+st.sidebar.markdown("<h4 style='color: blue; font-size: 16px;'>Made with 💙 Eng. Sameera Al-khalifi</h4>", unsafe_allow_html=True)
 
 
 
