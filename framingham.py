@@ -214,7 +214,7 @@ fig4 = px.box(df, x='age_groups', y='totChol', color='gender', title='Total Chol
 fig4.update_xaxes(categoryorder='array', categoryarray=age_group_labels)
 
 # Create a checkbox in the sidebar for selecting the figure to display
-selected_figure = st.sidebar.radio("Health Metrics Analysis by Age Group and Gender", [None,'Sys. BP', 'Dia. BP', 'Glucose', 'Total Cholesterol'])
+selected_figure = st.sidebar.radio("Health Metrics Analysis by Age Group and Gender", [None,'Systolic. BP', 'Diastolic. BP', 'Glucose', 'Total Cholesterol'])
 
 # Display the selected figure in the main area
 if selected_figure == 'Sys. BP':
@@ -243,7 +243,7 @@ palette = sns.color_palette(colors, as_cmap=True)
 
 # Plot the density plot for 'cigsPerDay' by age group
 sns.kdeplot(data=df, x='cigsPerDay', hue='age_groups', common_norm=False, fill=True, palette=palette)
-st.markdown('<h3 class="sub-header"> 4- Cigs. per day by Age Group (Density Plot)</h3>', unsafe_allow_html=True)
+st.markdown('<h3 class="sub-header"> 4- cigarettes consumption per day by Age Group (Density Plot)</h3>', unsafe_allow_html=True)
 plt.xlabel('Cigs. / Day')
 plt.ylabel('Density')
 # Display the plot in Streamlit
